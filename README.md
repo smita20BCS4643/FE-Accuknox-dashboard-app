@@ -19,3 +19,17 @@ This project is a React-based CNAPP dashboard that dynamically renders categorie
 - Node.js (v14 or newer recommended)
 - npm or yarn package manager
 
+## Setup & Running Locally
+
+1. Clone this repository:
+
+```
+git clone https://github.com/smita20BCS4643/FE-Accuknox-dashboard-app
+
+```
+2. Change the Directory 
+
+```
+cd FE-Accuknox-dashboard-app
+
+```
