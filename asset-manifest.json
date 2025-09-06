@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FE-Accuknox-dashboard-app/static/css/main.e6c13ad2.css",
+    "main.js": "/FE-Accuknox-dashboard-app/static/js/main.371dd011.js",
+    "static/js/453.b8cbee72.chunk.js": "/FE-Accuknox-dashboard-app/static/js/453.b8cbee72.chunk.js",
+    "index.html": "/FE-Accuknox-dashboard-app/index.html",
+    "main.e6c13ad2.css.map": "/FE-Accuknox-dashboard-app/static/css/main.e6c13ad2.css.map",
+    "main.371dd011.js.map": "/FE-Accuknox-dashboard-app/static/js/main.371dd011.js.map",
+    "453.b8cbee72.chunk.js.map": "/FE-Accuknox-dashboard-app/static/js/453.b8cbee72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.371dd011.js"
+  ]
+}
