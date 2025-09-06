@@ -83,7 +83,8 @@ npm start
 **Smita**
 
 - [GitHub Profile](https://github.com/smita20BCS4643)
-
+- [Linkedin Profile](https://www.linkedin.com/in/smita-292363203/)
+  
 ## Contribution
 
 Contributions, issues, and feature requests are welcome!  
