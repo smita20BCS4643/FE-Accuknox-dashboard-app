@@ -1,5 +1,11 @@
 # CNAPP Dashboard React App
 
+## Live Demo
+
+Try the live version of this app here:  
+[https://smita20BCS4643.github.io/FE-Accuknox-dashboard-app](https://smita20BCS4643.github.io/FE-Accuknox-dashboard-app)
+
+
 ## Project Overview
 
 This project is a React-based CNAPP dashboard that dynamically renders categories and widgets from JSON data. Users can add and remove widgets dynamically, search across categories and widgets, and interact with a functional header containing Add Widget, Refresh, More options, and Time Range controls.
