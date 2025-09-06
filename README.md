@@ -33,3 +33,63 @@ git clone https://github.com/smita20BCS4643/FE-Accuknox-dashboard-app
 cd FE-Accuknox-dashboard-app
 
 ```
+
+
+2. Install dependencies:
+
+```
+npm install
+```
+
+
+3. Run the development server:
+
+```
+npm start
+```
+
+
+4. Open your browser to `http://localhost:3000` to view the app.
+
+
+## Project Structure
+
+- `src/`
+  - `App.js`: Root React component rendering the Dashboard.
+  - `Dashboard.js`: Main component managing state, search, and modal logic.
+  - `NavBar.js`: Top navigation bar with search and notifications.
+  - `DashboardHeader.js`: Header controls with interactive buttons & dropdowns.
+  - `Category.js`: Displays categories with widgets and modal to add widgets.
+  - `Widget.js`: Individual widget with remove functionality.
+
+
+## How to Use
+
+- Use the search box to filter categories and widgets based on text input.
+- Click "Add Widget +" button in header or inside categories to add widgets.
+- In the modal, select widgets by tabs and confirm to add.
+- Remove widgets by clicking the “x” on the widget.
+- Use header controls for refreshing (placeholder alert), options menu, and time range selector.
+
+## Future Enhancements
+
+- Connect refresh and more options buttons to real backend or API.
+- Persist state in local storage or backend.
+- Enhance widget content with real data and charts.
+- Add user authentication and customization.
+
+## Author
+
+**Smita**
+
+- [GitHub Profile](https://github.com/smita20BCS4643)
+
+## Contribution
+
+Contributions, issues, and feature requests are welcome!  
+
+Feel free to fork this repo and create pull requests.
+
+---
+
+Give a ⭐️ if you like this project!
