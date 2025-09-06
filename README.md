@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# CNAPP Dashboard React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
 
-## Available Scripts
+Try the live version of this app here:  
+[https://smita20BCS4643.github.io/FE-Accuknox-dashboard-app](https://smita20BCS4643.github.io/FE-Accuknox-dashboard-app)
 
-In the project directory, you can run:
 
-### `npm start`
+## Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a React-based CNAPP dashboard that dynamically renders categories and widgets from JSON data. Users can add and remove widgets dynamically, search across categories and widgets, and interact with a functional header containing Add Widget, Refresh, More options, and Time Range controls.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Dynamic dashboard built from JSON-like structure of categories and widgets.
+- Add and remove widgets dynamically in each category.
+- Search functionality filters both categories and their widgets live.
+- Header with interactive controls (Add Widget, Refresh, More options, Time Range).
+- Responsive and accessible UI with keyboard support.
+- Local state management using React's `useState`.
+- Notifications for user actions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+- Node.js (v14 or newer recommended)
+- npm or yarn package manager
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup & Running Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/smita20BCS4643/FE-Accuknox-dashboard-app
 
-### `npm run eject`
+```
+2. Change the Directory 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+cd FE-Accuknox-dashboard-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies:
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Run the development server:
 
-### Code Splitting
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+4. Open your browser to `http://localhost:3000` to view the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `src/`
+  - `App.js`: Root React component rendering the Dashboard.
+  - `Dashboard.js`: Main component managing state, search, and modal logic.
+  - `NavBar.js`: Top navigation bar with search and notifications.
+  - `DashboardHeader.js`: Header controls with interactive buttons & dropdowns.
+  - `Category.js`: Displays categories with widgets and modal to add widgets.
+  - `Widget.js`: Individual widget with remove functionality.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## How to Use
 
-### Deployment
+- Use the search box to filter categories and widgets based on text input.
+- Click "Add Widget +" button in header or inside categories to add widgets.
+- In the modal, select widgets by tabs and confirm to add.
+- Remove widgets by clicking the “x” on the widget.
+- Use header controls for refreshing (placeholder alert), options menu, and time range selector.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Future Enhancements
 
-### `npm run build` fails to minify
+- Connect refresh and more options buttons to real backend or API.
+- Persist state in local storage or backend.
+- Enhance widget content with real data and charts.
+- Add user authentication and customization.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+
+**Smita**
+
+- [GitHub Profile](https://github.com/smita20BCS4643)
+- [Linkedin Profile](https://www.linkedin.com/in/smita-292363203/)
+  
+## Contribution
+
+Contributions, issues, and feature requests are welcome!  
+
+Feel free to fork this repo and create pull requests.
+
+---
+
+Give a ⭐️ if you like this project!
